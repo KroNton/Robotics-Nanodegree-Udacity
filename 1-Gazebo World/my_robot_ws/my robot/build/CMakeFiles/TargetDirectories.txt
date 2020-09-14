@@ -1,0 +1,3 @@
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/1-Gazebo World/my_robot_ws/my robot/build/CMakeFiles/rebuild_cache.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/1-Gazebo World/my_robot_ws/my robot/build/CMakeFiles/hello.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/1-Gazebo World/my_robot_ws/my robot/build/CMakeFiles/edit_cache.dir

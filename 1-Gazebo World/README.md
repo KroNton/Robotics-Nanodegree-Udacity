@@ -1,15 +1,4 @@
-# Robotics-Nanodegree-Udacity
 
--common job titles in Robotics:
-
-Data Scientist, Natural Language Processing
-Computer Vision Engineer
-NLP (neural-linguistic programming) Scientist
-Watson Machine Learning Engineer
-Software Engineer
-Deep Learning Engineer
-Software Engineer - Vision
------------------------------------------------
 #ROS&&Gazebo simulation
 Gazebo Components
 There are six components involved in running an instance of a Gazebo simulation:
@@ -34,4 +23,37 @@ It is a common practice to run gzserver first, followed by gzclient, allowing so
 5-Environment Variables:There are many environment variables that Gazebo uses, primarily to locate files (world, model, …) and set up communications between gzserver and gzclient. 
 
 6- Plugins: To interact with a world, model, or sensor in Gazebo, you can write plugins. These plugins can be either loaded from the command line or added to your SDF world file.
+--------------------
+###Build the cpp plugin file:
+1- Create a directory for scripts inside “myrobot” to store a hello.cpp file
+2- Create a CMakeLists.txt file out of the dir
+3-$ cd /home/workspace/myrobot
+  $ mkdir build
+  $ cd build/
+  $ cmake ../
+  $ make # You might get errors if your system is not up to date!
+   --------------------
+###How to set gazebo plugin path:
+site: "https://answers.gazebosim.org//question/13391/how-to-set-gazebo_plugin_path-correctly-and-add-the-plugin-into-gazebo_ros/"
+
+--->>>you can see your current GAZEBO_PLUGIN_PATH by the command
+>>>>>"$echo GAZEBO_PLUGIN_PATH"
+The path should point directly to the folder where the .so file is located (for example the build folder).
+--->>>To clean the variable use 
+>>>>>"$unset GAZEBO_PLUGIN_PATH" , then check again the variable: echo $GAZEBO_PLUGIN_PATH (no nothing should be returned)
+
+--->>>Now you have to navigate in terminal to the folder where the .so file is located (since pwd is the current folder). After using :
+>>>>>"$export GAZEBO_PLUGIN_PATH=$PWD" 
+your variable should be set correctly. (overwrites existing values)
+   -------------------
+4- Open your world file and attach the plugin to it
+   $ cd /home/workspace/myrobot/world/
+   $ gedit myworld
+     add this line to myworld file "<plugin name="hello" filename="libhello.so"/>"
+
+5-Launch the world file in Gazebo to load both the world and the plugin
+$ cd /home/workspace/myrobot/world/
+$ gazebo myworld
+$ gazebo myworld --verbose #in case of errors to declear it
+
 
