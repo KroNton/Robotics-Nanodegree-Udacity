@@ -35,6 +35,14 @@
 /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/gtest/googlemock/gtest/CMakeFiles/list_install_components.dir
 /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir
 /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/gtest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/install/strip.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/install/local.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/test.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/list_install_components.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/edit_cache.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/_catkin_empty_exported_target.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/rebuild_cache.dir
+/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/CMakeFiles/install.dir
 /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/simple_arm/CMakeFiles/install/strip.dir
 /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/simple_arm/CMakeFiles/install/local.dir
 /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/simple_arm/CMakeFiles/rebuild_cache.dir
