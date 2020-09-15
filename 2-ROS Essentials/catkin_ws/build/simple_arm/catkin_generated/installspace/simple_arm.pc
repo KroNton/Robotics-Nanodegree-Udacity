@@ -1,0 +1,8 @@
+prefix=/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/install
+
+Name: simple_arm
+Description: Description of simple_arm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

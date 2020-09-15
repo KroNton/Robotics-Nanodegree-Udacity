@@ -1,0 +1,2 @@
+simple_arm
+-DCATKIN_DEVEL_PREFIX=/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/install -G Unix Makefiles

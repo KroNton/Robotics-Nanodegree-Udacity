@@ -37,13 +37,13 @@ It is a common practice to run gzserver first, followed by gzclient, allowing so
 site: "https://answers.gazebosim.org//question/13391/how-to-set-gazebo_plugin_path-correctly-and-add-the-plugin-into-gazebo_ros/"
 
 --->>>you can see your current GAZEBO_PLUGIN_PATH by the command
->>>>>"$echo GAZEBO_PLUGIN_PATH"
+>>>>>"echo $GAZEBO_PLUGIN_PATH"
 The path should point directly to the folder where the .so file is located (for example the build folder).
 --->>>To clean the variable use 
 >>>>>"$unset GAZEBO_PLUGIN_PATH" , then check again the variable: echo $GAZEBO_PLUGIN_PATH (no nothing should be returned)
 
 --->>>Now you have to navigate in terminal to the folder where the .so file is located (since pwd is the current folder). After using :
->>>>>"$export GAZEBO_PLUGIN_PATH=$PWD" 
+>>>>>"export GAZEBO_PLUGIN_PATH=$PWD" 
 your variable should be set correctly. (overwrites existing values)
    -------------------
 4- Open your world file and attach the plugin to it
