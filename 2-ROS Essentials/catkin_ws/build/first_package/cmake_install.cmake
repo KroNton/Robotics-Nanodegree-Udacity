@@ -1,8 +1,8 @@
-# Install script for directory: /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/src/first_package
+# Install script for directory: /home/kronton/catkin_ws/src/first_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kronton/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/catkin_generated/installspace/first_package.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kronton/catkin_ws/build/first_package/catkin_generated/installspace/first_package.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_package/cmake" TYPE FILE FILES
-    "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/catkin_generated/installspace/first_packageConfig.cmake"
-    "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/first_package/catkin_generated/installspace/first_packageConfig-version.cmake"
+    "/home/kronton/catkin_ws/build/first_package/catkin_generated/installspace/first_packageConfig.cmake"
+    "/home/kronton/catkin_ws/build/first_package/catkin_generated/installspace/first_packageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_package" TYPE FILE FILES "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/src/first_package/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_package" TYPE FILE FILES "/home/kronton/catkin_ws/src/first_package/package.xml")
 endif()
 

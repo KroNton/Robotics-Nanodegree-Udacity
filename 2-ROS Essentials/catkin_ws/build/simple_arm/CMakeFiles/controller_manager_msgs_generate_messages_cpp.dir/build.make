@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/src"
+CMAKE_SOURCE_DIR = /home/kronton/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build"
+CMAKE_BINARY_DIR = /home/kronton/catkin_ws/build
 
 # Utility rule file for controller_manager_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build: c
 .PHONY : simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
 
 simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/clean:
-	cd "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/simple_arm" && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/kronton/catkin_ws/build/simple_arm && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/clean
 
 simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/depend:
-	cd "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/src" "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/src/simple_arm" "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build" "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/simple_arm" "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/kronton/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kronton/catkin_ws/src /home/kronton/catkin_ws/src/simple_arm /home/kronton/catkin_ws/build /home/kronton/catkin_ws/build/simple_arm /home/kronton/catkin_ws/build/simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : simple_arm/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/depend
 

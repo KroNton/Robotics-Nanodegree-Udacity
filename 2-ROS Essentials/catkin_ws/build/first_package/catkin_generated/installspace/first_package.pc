@@ -1,4 +1,4 @@
-prefix=/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/install
+prefix=/home/kronton/catkin_ws/install
 
 Name: first_package
 Description: Description of first_package

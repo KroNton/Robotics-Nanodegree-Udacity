@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4fad5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4fad5.dir/build.make CMakeFiles/cmTC_4fad5.dir/build
-make[1]: Entering directory '/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4fad5.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_4fad5.dir/CheckSymbolExists.c.o   -c "/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_4fad5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fad5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4fad5.dir/CheckSymbolExists.c.o  -o cmTC_4fad5 
-CMakeFiles/cmTC_4fad5.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_34f94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34f94.dir/build.make CMakeFiles/cmTC_34f94.dir/build
+make[1]: Entering directory '/home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34f94.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_34f94.dir/CheckSymbolExists.c.o   -c /home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_34f94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f94.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_34f94.dir/CheckSymbolExists.c.o  -o cmTC_34f94 
+CMakeFiles/cmTC_34f94.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4fad5.dir/build.make:97: recipe for target 'cmTC_4fad5' failed
-make[1]: *** [cmTC_4fad5] Error 1
-make[1]: Leaving directory '/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4fad5/fast' failed
-make: *** [cmTC_4fad5/fast] Error 2
+CMakeFiles/cmTC_34f94.dir/build.make:97: recipe for target 'cmTC_34f94' failed
+make[1]: *** [cmTC_34f94] Error 1
+make[1]: Leaving directory '/home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_34f94/fast' failed
+make: *** [cmTC_34f94/fast] Error 2
 
-File /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b5a2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b5a2.dir/build.make CMakeFiles/cmTC_9b5a2.dir/build
-make[1]: Entering directory '/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b5a2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9b5a2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9b5a2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b5a2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9b5a2.dir/CheckFunctionExists.c.o  -o cmTC_9b5a2 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_04996/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04996.dir/build.make CMakeFiles/cmTC_04996.dir/build
+make[1]: Entering directory '/home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04996.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_04996.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04996.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_04996.dir/CheckFunctionExists.c.o  -o cmTC_04996 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9b5a2.dir/build.make:97: recipe for target 'cmTC_9b5a2' failed
-make[1]: *** [cmTC_9b5a2] Error 1
-make[1]: Leaving directory '/media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9b5a2/fast' failed
-make: *** [cmTC_9b5a2/fast] Error 2
+CMakeFiles/cmTC_04996.dir/build.make:97: recipe for target 'cmTC_04996' failed
+make[1]: *** [cmTC_04996] Error 1
+make[1]: Leaving directory '/home/kronton/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04996/fast' failed
+make: *** [cmTC_04996/fast] Error 2
 
 

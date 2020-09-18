@@ -67,14 +67,14 @@ set(first_package_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(first_package_SOURCE_PREFIX /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/src/first_package)
-  set(first_package_DEVEL_PREFIX /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/devel)
+  set(first_package_SOURCE_PREFIX /home/kronton/catkin_ws/src/first_package)
+  set(first_package_DEVEL_PREFIX /home/kronton/catkin_ws/devel)
   set(first_package_INSTALL_PREFIX "")
   set(first_package_PREFIX ${first_package_DEVEL_PREFIX})
 else()
   set(first_package_SOURCE_PREFIX "")
   set(first_package_DEVEL_PREFIX "")
-  set(first_package_INSTALL_PREFIX /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/install)
+  set(first_package_INSTALL_PREFIX /home/kronton/catkin_ws/install)
   set(first_package_PREFIX ${first_package_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /media/kronton/New Volume/my works/Robotics Nanodegree Udacity/2-ROS Essentials/catkin_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/kronton/catkin_ws/install/lib;/home/kronton/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
