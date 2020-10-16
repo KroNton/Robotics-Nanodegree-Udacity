@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+  <xacro:include filename="$(find my_robot)/urdf/my_robot.gazebo" />
   <link name="robot_footprint"></link>
 
   <joint name="robot_footprint_joint" type="fixed">
@@ -131,10 +131,7 @@
         <geometry>
           <box size="0.05 0.05 0.05"/>
         </geometry>
-        <material name="red">
-          <color rgba="1.0 0.0 0.0 1.0"/>
-          <texture filename=""/>
-        </material>
+        
       </visual>
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -142,6 +139,9 @@
           <box size="0.05 0.05 0.05"/>
         </geometry>
       </collision>
+      <gazebo reference="camera">
+          <material>Gazebo/Green</material>
+      </gazebo>
     </link>
 
 <joint name="camera_joint" type="fixed">
